@@ -12,7 +12,7 @@ p {
 }
 
 del {
-	color: #ffffff;
+	color: #888888;
 }
 
 a {
@@ -35,7 +35,8 @@ h3 {
 h4 {
 	color: #ffffff;
 	margin: 0;
-}
+
+}/*关闭标题的margin*/
 
 .navbar {
 	position: -webkit-sticky;
@@ -163,5 +164,14 @@ h4 {
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.2) ;
 	border-radius: 8px;
 }/*卡片样式，从html"style"传递参数，--W 宽度，--H 高度*/
-
-}/*关闭标题的margin*/
+.float-left{
+	display: block;
+	float: left;
+	width: 50%;
+	height: 100%;
+}
+.float-right{
+	display: block;
+	float: right;
+	width: 50%;
+}
